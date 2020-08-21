@@ -3,23 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=fallback"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
   <body>
     <!-- header -->
-    <header></header>
+    <header>
+      <nav>
+        <ul>
+          <li><a class="link active" href="#about">О нас</a></li>
+          <li><a class="link" href="#price">Услуги и цены</a></li>
+          <li><a class="link" href="#staff">Мастера</a></li>
+          <li><a class="link" href="#contacts">Контакты</a></li>
+        </ul>
+      </nav>
+      <address>
+        <a href="tel:+380441111111">+38 044 111 11 11</a>
+      </address>
+      <a href="#form">Онлайн-запись</a>
+    </header>
     <!-- main -->
     <main>
       <!-- article -->
       <article>
         <!-- hero -->
-        <h6 lang="en">A hair salon for men in Kyiv</h6>
+        <h6 class="quote" lang="en">A hair salon for men in Kyiv</h6>
         <h1 lang="en">BarberShop</h1>
-        <p>Мы эксперты в модных мужских стрижках.</p>
-        <p>Работаем быстро, осторожно и со вкусом.</p>
+        <p class="additional-title">Мы эксперты в модных мужских стрижках.</p>
+        <p class="additional-title">Работаем быстро, осторожно и со вкусом.</p>
 
         <!-- about section -->
-        <section>
+        <section class="light" id="about">
           <h6>О НАС</h6>
           <h2>Лучший Барбершоп твоего города</h2>
           <p>
@@ -33,12 +52,12 @@
             клиентами "на одной волне". Поэтому, мы всегда готовы
             усовершенствовать каждого, кто к нам приходит!
           </div>
-          <a href="">онлайн-запись</a>
+          <a href="#form">онлайн-запись</a>
           <img src="" alt="помазком наносят крем на бороду мужчине" />
           <img src="" alt="бреет затылок опасной бритвой" />
         </section>
         <!-- prices section -->
-        <section>
+        <section id="price">
           <h6>Проведи время в компании лучших мастеров</h6>
           <h2>Услуги и цены</h2>
           <ul>
@@ -60,7 +79,7 @@
               <span>Камуфлирование седины</span> - <span>от 200 грн.</span>
             </li>
           </ul>
-          <a href="">онлайн-запись</a>
+          <a href="#form">онлайн-запись</a>
         </section>
         <!-- why we section -->
         <section>
@@ -81,8 +100,8 @@
             прочувствовать, чем 10 раз прочитать.
           </p>
         </section>
-        <!-- our masters -->
-        <section>
+        <!-- our staff -->
+        <section id="staff">
           <h6>для настоящих ценителей атмосферы</h6>
           <h2>Наши мастера</h2>
           <ul>
@@ -124,12 +143,12 @@
           <img src="" alt="" />
         </section>
         <!-- form section -->
-        <section>
+        <section id="form">
           <h2>Онлайн-запись</h2>
           form
         </section>
         <!-- contacts -->
-        <section>
+        <section id="contacts">
           <h2>Контакты</h2>
           <address>
             <p>
